@@ -1,0 +1,13 @@
+{
+  "nav_home": "Accueil",
+  "nav_about": "À propos",
+  "nav_services": "Services",
+  "nav_contact": "Contact",
+  "hero_title": "Bienvenue sur le site de KB Advisor IT",
+  "hero_desc": "Expert en transformation digitale, sécurité informatique et gestion de projets IT. Découvrez mes services et contactez-moi pour plus d'informations.",
+  "hero_cta": "Découvrir mes services",
+  "intro_title": "Qui suis-je ?",
+  "intro_text": "Je suis un consultant indépendant spécialisé dans l’accompagnement des entreprises pour la mise en place de solutions informatiques fiables et innovantes. Avec plus de 10 ans d’expérience, je propose des services sur-mesure pour répondre aux enjeux technologiques de mes clients.",
+  "intro_cta": "En savoir plus",
+  "footer_rights": "Tous droits réservés."
+}

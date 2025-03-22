@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - KB Advisor IT</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/images/logo.png" alt="KB Advisor IT Logo" height="80">
+        </a>
+      </div>
+      <nav>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html" data-i18n="nav_home">Accueil</a></li>
+          <li><a href="about.html" data-i18n="nav_about">À propos</a></li>
+          <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        <div class="lang-switcher">
+          <select id="lang-switcher" title="Changer de langue">
+            <option value="fr" selected>🇫🇷 Français</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="zh">🇨🇳 中文</option>
+            <option value="ja">🇯🇵 日本語</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="ar">🇸🇦 العربية</option>
+            <option value="hi">🇮🇳 हिंदी</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Contenu principal -->
+  <main>
+    <section class="contact">
+      <h1 data-i18n="contact_title">Contactez-nous</h1>
+      <p data-i18n="contact_intro">Pour toute demande de renseignements ou de devis, merci de remplir le formulaire ci-dessous.</p>
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name" data-i18n="contact_name">Nom :</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email" data-i18n="contact_email">Email :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message" data-i18n="contact_message">Message :</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" data-i18n="contact_submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 KB Advisor IT. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+      <p>
+        <a href="mailto:contact@kb-advisor.com">contact@kb-advisor.com</a> |
+        <a href="tel:+33000000000">+33 0 00 00 00 00</a>
+      </p>
+    </div>
+  </footer>
+  
+  <!-- Scripts JS -->
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

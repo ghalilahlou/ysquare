@@ -1,0 +1,52 @@
+<header>
+  <div class="header-container">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../assets/images/logo.png" alt="Consultant IT Logo" height="80">
+      </a>
+    </div>
+    <!-- Navigation -->
+    <nav>
+      <!-- Bouton hamburger pour mobile -->
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <!-- Liens de navigation -->
+      <ul class="nav-links">
+        <li><a href="../index.html" data-i18n="nav_home">Accueil</a></li>
+        <li><a href="../pages/about.html" data-i18n="nav_about">À propos</a></li>
+        <li><a href="../pages/services.html" data-i18n="nav_services">Services</a></li>
+        <li><a href="../pages/contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <!-- Sélecteur de langue -->
+      <div class="lang-switcher">
+        <select id="lang-switcher" title="Changer de langue">
+          <option value="fr" selected>Français</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="de">Deutsch</option>
+          <option value="it">Italiano</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
+          <option value="ru">Русский</option>
+          <option value="ar">العربية</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Script pour le comportement du menu mobile -->
+<script>
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  mobileMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+    navLinks.classList.toggle('active');
+  });
+</script>
